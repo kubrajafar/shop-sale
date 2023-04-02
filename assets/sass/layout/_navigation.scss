@@ -1,0 +1,54 @@
+#contact {
+  background-color: #007878;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 30px;
+  .contact_container {
+    min-height: 48px;
+    max-width: 1128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .contact {
+      display: flex;
+      align-items: center;
+      color: #ffffffe5;
+      img {
+        margin-right: 13px;
+      }
+      a{
+        color: #ffffffe5;
+        text-decoration: none;
+      }
+    }
+    ul {
+      display: flex;
+      li {
+        list-style: none;
+        margin-left: 18px;
+        a {
+          text-decoration: none;
+          color: #ffffffbf;
+          &.faq-border {
+            padding: 0 18px;
+            border-left: 2px solid #ffffffbf;
+            border-right: 2px solid #ffffffbf;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 568px) {
+  #contact {
+    .contact_container {
+      align-items: center;
+      justify-content: center;
+      .contact {
+        display: none;
+      }
+    }
+  }
+}
