@@ -493,6 +493,7 @@ header .header-container .header-img img {
   border-radius: 8px;
 }
 #featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture .bag-img {
+  height: 220px !important;
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
