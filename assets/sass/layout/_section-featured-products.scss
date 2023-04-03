@@ -36,7 +36,6 @@
       display: flex;
       gap: 24px;
       .featuredBag {
-        min-height: 90%;
         width: 33.333%;
         border-radius: 8px;
         background-color: #f9f9f9;
@@ -87,7 +86,6 @@
             }
             .bag-img {
               margin: 0 auto;
-              height: 219px;
               display: flex;
               align-items: flex-end;
             }

@@ -199,12 +199,46 @@ footer {
   footer {
     #footer-menu {
       .menu-container {
+        font-size: 12px;
+        line-height: 16px;
         .menu-header {
           .menu-header-input {
             display: none;
           }
         }
+        .menu-content {
+          .nav-menus {
+            .footer-nav-menu {
+              ul {
+                li {
+                  margin-bottom: 5px;
+                }
+              }
+            }
+          }
+          .menu-content-info {
+          .menu-connection {
+            flex-direction: column ;
+            align-items: center;
+            .footer-menu-contact{
+               .menu-content-number{
+                margin-bottom:20px;
+               }
+            }
+          }
+        }
+        }
+        
       }
+    }
+  }
+
+  #footer {
+    .footer-container {
+      padding: 10px 0;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
     }
   }
 }

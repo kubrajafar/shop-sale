@@ -234,7 +234,7 @@ nav .nav-container .nav-menu ul li a {
   }
   nav .nav-container .nav-menu.active {
     width: 100%;
-    height: 290px;
+    height: 310px;
   }
   nav .nav-container .nav-menu.active ul {
     opacity: 1;
@@ -293,12 +293,12 @@ header .header-container .header-img img {
 }
 #settings-part .settings-container {
   max-width: 1128px;
-  height: 144px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 20px 0;
 }
 #settings-part .settings-container div {
   display: flex;
@@ -324,7 +324,6 @@ header .header-container .header-img img {
 }
 @media screen and (max-width: 700px) {
   #settings-part .settings-container {
-    height: 230px;
     grid-template-columns: auto;
     justify-content: flex-start;
     gap: 10px;
@@ -334,7 +333,6 @@ header .header-container .header-img img {
   background-color: #fff;
   margin-top: 80px;
   margin-bottom: 86px;
-  position: relative;
   padding: 0 30px;
 }
 #section-bag-type .bagType-container {
@@ -347,6 +345,7 @@ header .header-container .header-img img {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 2%;
+  position: relative;
 }
 #section-bag-type .bagType-container .bags div {
   max-width: 100%;
@@ -371,18 +370,16 @@ header .header-container .header-img img {
   bottom: 0;
   right: 0;
 }
-#section-bag-type .bagType-container .bags-icon {
+#section-bag-type .bagType-container .bags .bags-icon {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background-color: #ffffff;
   border: 0.5px solid #ebebeb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   position: absolute;
-  top: 61px;
-  right: 95px;
+  right: -15px;
+  top: 65px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -444,7 +441,6 @@ header .header-container .header-img img {
   gap: 24px;
 }
 #featured-products .featured-container .featured-bags .featuredBag {
-  min-height: 90%;
   width: 33.333%;
   border-radius: 8px;
   background-color: #f9f9f9;
@@ -498,7 +494,6 @@ header .header-container .header-img img {
 }
 #featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture .bag-img {
   margin: 0 auto;
-  height: 219px;
   display: flex;
   align-items: flex-end;
 }
@@ -758,8 +753,28 @@ footer .horizontal {
   }
 }
 @media screen and (max-width: 500px) {
+  footer #footer-menu .menu-container {
+    font-size: 12px;
+    line-height: 16px;
+  }
   footer #footer-menu .menu-container .menu-header .menu-header-input {
     display: none;
+  }
+  footer #footer-menu .menu-container .menu-content .nav-menus .footer-nav-menu ul li {
+    margin-bottom: 5px;
+  }
+  footer #footer-menu .menu-container .menu-content .menu-content-info .menu-connection {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer #footer-menu .menu-container .menu-content .menu-content-info .menu-connection .footer-menu-contact .menu-content-number {
+    margin-bottom: 20px;
+  }
+  #footer .footer-container {
+    padding: 10px 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
 .header-button {
