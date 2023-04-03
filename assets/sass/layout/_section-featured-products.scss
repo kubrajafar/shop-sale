@@ -86,6 +86,7 @@
             }
             .bag-img {
               margin: 0 auto;
+              height: 220px !important;
               display: flex;
               align-items: flex-end;
             }
@@ -138,15 +139,15 @@
 @media screen and (max-width: 992px) {
   #featured-products {
     .featured-container {
-      .featured-header{
-        .header-text{
-            font-size:25px;
+      .featured-header {
+        .header-text {
+          font-size: 25px;
         }
       }
       .featured-bags {
         display: grid;
         grid-template-columns: auto auto;
-        
+
         .featuredBag {
           width: 100%;
           &.bag-4 {
@@ -161,15 +162,15 @@
 @media screen and (max-width: 568px) {
   #featured-products {
     .featured-container {
-      .featured-header{
-        .header-text{
-            font-size:20px;
+      .featured-header {
+        .header-text {
+          font-size: 20px;
         }
       }
       .featured-bags {
         display: grid;
         grid-template-columns: auto;
-        
+
         .featuredBag {
           width: 100%;
           &.bag-4 {
